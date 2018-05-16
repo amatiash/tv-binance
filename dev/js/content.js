@@ -110,7 +110,7 @@ class BinanceInjector {
 
         if(shouldMount){
             if(!binanceChart || !chartContainer)
-                throw new Error(`TradingView chart injecting failed, because but couldn't find and hide BinanceChart :(`);
+                throw new Error(`TradingView chart injecting failed, because couldn't find and hide BinanceChart :(`);
 
             binanceChart.classList.add('klinecon--hidden');
 
