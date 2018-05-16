@@ -1,0 +1,16 @@
+#tv-iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.overvies {
+  position: relative;
+}
+
+.klinecon--hidden {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}

@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "TradingView on Binance"
+  },
+  "appDesc": {
+    "message": "Better charting for Binance"
+  },
+  "iconTitle": {
+    "message": "Switch TradingView/Binance chart"
+  }
+}

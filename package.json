@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "name": "tv-binance",
+  "author": "Anton Matishevich",
+  "scripts": {
+    "start": "webpack",
+    "build": "rm -rf build && NODE_ENV=production webpack -p && gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/amatiash/tv-binance.git"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.9",
+    "file-loader": "^0.9.0",
+    "gulp": "^3.9.1",
+    "handlebars": "^4.0.11",
+    "handlebars-loader": "^1.7.0",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "querystring": "^0.2.0"
+  }
+}
