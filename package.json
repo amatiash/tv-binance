@@ -1,13 +1,13 @@
 {
   "name": "tv-binance",
-  "author": "Anton Matishevich",
+  "license": "GPL-3.0",
   "scripts": {
     "start": "webpack",
     "build": "rm -rf build && NODE_ENV=production webpack -p && gulp build"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/amatiash/tv-binance.git"
+    "url": "https://github.com/amatiash/tv-binance.git"
   },
   "devDependencies": {
     "autoprefixer": "^7.2.5",
